@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="170" height="82" viewBox="0 0 170 82">
+    <defs>
+        <rect id="i8zjpyfiza" width="170" height="81.34" x="0" y="0" rx="8.134"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <mask id="j0ayjg14eb" fill="#fff">
+            <use xlink:href="#i8zjpyfiza"/>
+        </mask>
+        <use fill="#FCC8B2" xlink:href="#i8zjpyfiza"/>
+        <g fill="#FFF" fill-rule="nonzero" mask="url(#j0ayjg14eb)" opacity=".5">
+            <g transform="translate(99 23)">
+                <path d="M70.908 99.848H5.421C2.427 99.848 0 97.421 0 94.428V5.52C0 2.527 2.427.1 5.421.1h65.487c2.994 0 5.421 2.427 5.421 5.42v88.907c0 2.994-2.427 5.421-5.42 5.421zM5.421 2.268c-1.796 0-3.253 1.456-3.253 3.253v88.906c0 1.796 1.457 3.253 3.253 3.253h65.487c1.797 0 3.253-1.457 3.253-3.253V5.521c0-1.797-1.456-3.253-3.253-3.253H5.421z"/>
+                <path d="M1.084 21.567H75.245V23.735H1.084zM1.084 44.987H75.245V47.155H1.084z"/>
+                <circle cx="20.585" cy="12.98" r="2.012"/>
+                <circle cx="11.504" cy="12.98" r="2.012"/>
+                <circle cx="29.666" cy="12.98" r="2.012"/>
+                <circle cx="56.364" cy="34.448" r="2.012"/>
+                <circle cx="47.283" cy="34.448" r="2.012"/>
+                <circle cx="65.446" cy="34.448" r="2.012"/>
+                <circle cx="19.284" cy="57.867" r="2.012"/>
+                <circle cx="10.203" cy="57.867" r="2.012"/>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synnfo</title>
+
+    <!-- Aos animation cdn -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- font-awesome cdn -->
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- lottiefiles cdn -->
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- <section> -->
+    <header class="navbar_section">
+      <nav>
+        <a href="#"><img src="./assets/group-2.svg" alt="synnfo_logo" /></a>
+
+        <label class="bars" for="toggle">
+          <img src="./assets/hamburger.svg" alt="" />
+        </label>
+
+        <input id="toggle" type="checkbox" />
+
+        <div class="nav_div">
+          <div class="links">
+            <a style="color: #fe5814;" href="#">HOME</a>
+            <a href="#">ABOUT US</a>
+            <a href="#">SERVICES</a>
+            <a href="#">CONTACT US</a>
+            <a href="#">BLOGS</a>
+          </div>
+          <div>
+            <img
+              href="hamburger"
+              src="./assets/hamburger.svg"
+              alt="hamburger_menu"
+              id="click"
+            />
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- </section> -->
+    <section class="hero_section">
+      <div class="who_are_we">
+        <div class="text1">
+          <h1>We engineer<br />brilliant<br />solutions.</h1>
+          <button>
+            let's collaborate <i class="fa-solid fa-arrow-right"></i>
+          </button>
+        </div>
+        <div style="flex: 0 1 45%;" data-aos="fade-up" data-aos-duration="3000">
+          <div class="image1">
+            <img src="./assets/rocket-2.svg" alt="rocket_img" />
+          </div>
+        </div>
+        <!-- <div class="image1">
+          <img src="./assets/rocket-2.svg" alt="rocket_img" />
+        </div> -->
+      </div>
+      <div class="clouds">
+        <img src="./assets/homepagecloudsmall.svg" alt="cloud1" />
+        <img src="./assets/homepagecloudbig.svg" alt="cloud2" />
+        <img src="./asset_mob/cloud-3@2x.png" alt="" />
+        <img src="./asset_mob/combined-shape@2x.png" alt="" />
+        <!-- <img src="./assets/homepagecloudbig.svg" alt="cloud2" /> -->
+        <!-- <img src="./asset_mob/combined-shape@2x.png" alt="cloud3"> -->
+      </div>
+      <!-- <div class="who_are_we">
+            <div class="text2"></div>
+            <div class="image2"><img src=".//images/process-execution-copy.svg".//images/process-execution-copy.svg"".//images/process-execution-copy.svg"" alt=""></div>
+        </div>
+        <div class="who_are_we">
+            <div class="text3"></div>
+            <div class="image3"><img src=".//images/process-execution-copy.svg".//images/process-execution-copy.svg"".//images/process-execution-copy.svg"" alt=""></div>
+        </div> -->
+    </section>
+    <section class="about_section">
+      <div class="about_container">
+        <div class="about_us">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2>WHO WE ARE</h2>
+            <h1>We are digital problem solvers</h1>
+            <p>
+              A team of cloud experts committed to provide exceptional tech
+              solutions to complex problems with our expertise and favourite
+              technology, with pleasure!
+            </p>
+          </div>
+          <!-- <h2>WHO WE ARE</h2> -->
+          <div>
+            <!-- <h1>We are digital problem solvers</h1> -->
+            <!-- <p>
+              A team of cloud experts committed to provide exceptional tech
+              solutions to complex problems with our expertise and favourite
+              technology, with pleasure!
+            </p> -->
+            <button>Know Us <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+        <div class="about_us_img">
+          <img src="./assets/group-33.svg" alt="about_us_img" />
+        </div>
+      </div>
+    </section>
+    <section class="card_section">
+      <div class="card_container">
+        <div class="services_text">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2>OUR SERVICES</h2>
+            <h1>What can we do for you</h1>
+            <p>
+              We strive to bring the highest quality solutions with a fresh
+              perspective focused on emerging technology
+            </p>
+          </div>
+          <!-- <h2>OUR SERVICES</h2> -->
+          <div>
+            <!-- <h1>What can we do for you</h1> -->
+            <!-- <p>
+              We strive to bring the highest quality solutions with a fresh
+              perspective focused on emerging technology
+            </p> -->
+          </div>
+        </div>
+
+        <div class="services_cards">
+          <div class="the_card">
+            <div class="card_image">
+              <lottie-player
+                src="./anim/service-1.json"
+                background="transparent"
+                speed="1"
+                style="width: 160px; height: 160px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="card_content">
+              <div>
+                <h2>Cloud Services</h2>
+                <p>
+                  We use the best and cost effective cloud computing
+                  technologies to solve your business needs with precision that
+                  ensure a quick turnaround.
+                </p>
+              </div>
+              <div>
+                <a href="#"><h2>MORE</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="the_card">
+            <div class="card_image">
+              <lottie-player
+                src="./anim/service-2.json"
+                background="transparent"
+                speed="1"
+                style="width: 160px; height: 160px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="card_content">
+              <div>
+                <h2>Cyber Security</h2>
+                <p>
+                  We specialise in setting strong defense systems to protect
+                  your valuable customers and IT assets from cyber attacks.
+                </p>
+              </div>
+              <div>
+                <a href="#"><h2>MORE</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="the_card">
+            <div class="card_image">
+              <lottie-player
+                src="./anim/service-3.json"
+                background="transparent"
+                speed="1"
+                style="width: 160px; height: 160px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="card_content">
+              <div>
+                <h2>Software Testing</h2>
+                <p>
+                  We use automated, reusable, and innovative testing procedures
+                  to match the need of Agile Software Development without
+                  compromising on quality.
+                </p>
+              </div>
+              <div>
+                <a href="#"><h2>MORE</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="the_card">
+            <div class="card_image">
+              <lottie-player
+                src="./anim/service-4.json"
+                background="transparent"
+                speed="1"
+                style="width: 160px; height: 160px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="card_content">
+              <div>
+                <h2>Data Analytics & Insights</h2>
+                <p>
+                  We identify problems before they become an issue for your
+                  customers through new age data analytics practices.
+                </p>
+              </div>
+              <div>
+                <a href="#"><h2>MORE</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="the_card">
+            <div class="card_image">
+              <lottie-player
+                src="./anim/service-5.json"
+                background="transparent"
+                speed="1"
+                style="width: 160px; height: 160px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="card_content">
+              <div>
+                <h2>Digital Solutions</h2>
+                <p>
+                  We ensure a constant connection with your customers on apps,
+                  websites, or micro-sites through effective digital solutions.
+                </p>
+              </div>
+              <div>
+                <a href="#"><h2>MORE</h2></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="the_card">
+            <div class="card_image">
+              <lottie-player
+                src="./anim/service-6.json"
+                background="transparent"
+                speed="1"
+                style="width: 160px; height: 160px"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="card_content">
+              <div>
+                <h2>Managed IT Solutions</h2>
+                <p>
+                  We provide IT solutions that manage all your IT needs so you
+                  can focus on your next big idea and customer.
+                </p>
+              </div>
+              <div>
+                <a href="#"><h2>MORE</h2></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="process_section">
+      <div class="process_clouds">
+        <!-- <img src="./images_desktop/group-44.svg" alt=""> -->
+      </div>
+      <div class="process_container">
+        <div class="process_text">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2>PROCESS</h2>
+            <h1>We mind the process!</h1>
+            <p>
+              We have an engagement process that provides you with a seamless
+              experience that focuses on your key needs
+            </p>
+          </div>
+          <!-- <h2>PROCESS</h2> -->
+          <div>
+            <!-- <h1>We mind the process!</h1> -->
+            <!-- <p>
+              We have an engagement process that provides you with a seamless
+              experience that focuses on your key needs
+            </p> -->
+          </div>
+        </div>
+        <div class="process_cards">
+          <div class="the_card2">
+            <div class="card_image2">
+              <img src="./images/process-req-gathering-copy.svg" alt="" />
+            </div>
+            <div class="card_content2">
+              <h2>Requirement gathering</h2>
+              <p>
+                We cut the chaff to focus on needs that make a real difference
+                for your customers to build a solid foundation.
+              </p>
+            </div>
+          </div>
+
+          <div class="the_card2">
+            <div class="card_image2">
+              <img src="./images/process-resource-selection-copy.svg" alt="" />
+            </div>
+            <div class="card_content2">
+              <h2>Resource selection</h2>
+              <p>
+                We make the careful choices to ensure your future success with
+                the right skills and mindset.
+              </p>
+            </div>
+          </div>
+
+          <div class="the_card2">
+            <div class="card_image2">
+              <img src="./images/process-proposal-copy.svg" alt="" />
+            </div>
+            <div class="card_content2">
+              <h2>Proposal</h2>
+              <p>
+                We look for an opportunity that is underlined with quality and
+                excellence.
+              </p>
+            </div>
+          </div>
+
+          <div class="the_card2">
+            <div class="card_image2">
+              <img src="./images/process-execution-copy.svg" alt="" />
+            </div>
+            <div class="card_content2">
+              <h2>Execution</h2>
+              <p>
+                We strive to impress with our quality work and provide
+                insightful results.
+              </p>
+            </div>
+          </div>
+
+          <div class="the_card2">
+            <div class="card_image2">
+              <img src="./images/process-ci-copy.svg" alt="" />
+            </div>
+            <div class="card_content2">
+              <h2>Continuous improvement</h2>
+              <p>We start everyday with an aim to improve and innovate.</p>
+            </div>
+          </div>
+
+          <div class="the_card2">
+            <div class="card_image2">
+              <img src="./images/process-contract-copy.svg" alt="" />
+            </div>
+            <div class="card_content2">
+              <h2>Contract finalization</h2>
+              <p>We give you our commitment for your success.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="engagement_section">
+      <div class="engagement_container">
+        <div class="engagement_text">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2>ENGAGEMENT MODEL</h2>
+            <h1>We offer the choice</h1>
+            <p>
+              We offer you various models that you can choose from as per your
+              needs, all with the same commitment of winning your trust
+            </p>
+          </div>
+          <!-- <h2>ENGAGEMENT MODEL</h2> -->
+          <div>
+            <!-- <h1>We offer the choice</h1> -->
+            <!-- <p>
+              We offer you various models that you can choose from as per your
+              needs, all with the same commitment of winning your trust
+            </p> -->
+          </div>
+        </div>
+        <div class="engagement_content">
+          <div class="choice_image">
+            <img src="./assets/moon.svg" alt="" />
+            <img src="./assets/backcloud.svg" alt="" />
+            <img src="./assets/frontcloud.svg" alt="" />
+            <img src="./assets/side-small.svg" alt="" />
+          </div>
+
+          <!-- <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                          Accordion Item #1
+                        </button>
+                      </h2>
+                      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Accordion Item #2
+                        </button>
+                      </h2>
+                      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          Accordion Item #3
+                        </button>
+                      </h2>
+                      <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                          <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                        </div>
+                      </div>
+                    </div>
+                </div> -->
+          <div class="choice_accordian">
+            <div class="choice_progress">
+              <div></div>
+            </div>
+            <div>
+              <h1>Full Time Model</h1>
+              <p>
+                At Synnfo, professionals strive to deliver our commitment with
+                unwavering focus, passion and flexibility which allows you to
+                make swift decisions for changing needs.
+              </p>
+              <h1>Part Time Model</h1>
+              <h1>Virtual Model</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="collaborate_section">
+      <div class="collaborate_container">
+        <div class="collaborate_text1">
+          <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+            <h2>COLLABORATE WITH US</h2>
+            <h1>
+              Have an idea? Hold that thought!<br />We will reach out to you
+            </h1>
+          </div>
+          <!-- <h2>COLLABORATE WITH US</h2> -->
+          <div>
+            <!-- <h1>
+              Have an idea? Hold that thought!<br />We will reach out to you
+           </h1> -->
+            <button>
+              Drop your details here<i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+        <div class="collaborate_text2">
+          <div data-aos="fade-right" data-aos-offset="300"  data-aos-easing="ease-in-sine">
+            <h2>WE ARE LOOKING FOR TALENTS</h2>
+            <h1>
+              Do you have the same<br />passion and love for<br />technology
+              like we do
+            </h1>
+          </div>
+          <div>
+            <!-- <h1>
+              Do you have the same<br />passion and love for<br />technology
+              like we do
+            </h1> -->
+            <button>Join Us <i class="fa-solid fa-arrow-right"></i></button>
+          </div>
+        </div>
+      </div>
+      <div class="collaborate_image">
+        <img src="./images/group-59.svg" alt="" />
+      </div>
+    </section>
+    <footer class="footer_section">
+      <div class="footer_container">
+        <div class="column1">
+          <div class="us">
+            <h1>We engineer <br />brilliant solutions</h1>
+            <button>
+              Let's collaborate<i class="fa-solid fa-arrow-right"></i>
+            </button>
+          </div>
+          <div class="location">
+            <h2>LOCATION</h2>
+            <p>Level 27, 101 Collins St Melbourne, VIC,Australia 3000</p>
+          </div>
+        </div>
+        <div class="extra">
+          <div class="column2">
+            <h2>LINKS</h2>
+            <a href="#">Home</a>
+            <a href="#">About Us</a>
+            <a href="#">Services</a>
+            <a href="#">Career</a>
+            <a href="#">Blogs</a>
+            <a href="#">Contact Us</a>
+          </div>
+          <div class="column3">
+            <h2>SERVICES</h2>
+            <a href="#">Cloud Services</a>
+            <a href="#">Cyber Security</a>
+            <a href="#">Software Testing</a>
+            <a href="#">Digital Solutions</a>
+            <a href="#">Analytics, Insights & Data</a>
+            <a href="#">Managed IT Services</a>
+          </div>
+          <div class="column4">
+            <div class="social_media">
+              <h2>SOCIAL MEDIA</h2>
+              <a href="#"><img src="./images/sm-icon-linkedin.svg" alt="" /></a>
+              <a href="#"><img src="./images/sm-icon-facebook.svg" alt="" /></a>
+            </div>
+            <div class="contact">
+              <h2>CONTACT</h2>
+              <img src="" alt="" /><a href="#">+61 3 8399 9139</a>
+              <img src="" alt="" /><a href="#">connect@synnfo.com.au</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
