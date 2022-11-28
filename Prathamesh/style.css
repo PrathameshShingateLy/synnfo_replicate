@@ -97,14 +97,9 @@ nav a img {
     display: none;
 }
 
-
-
-
-
 /* hero_section styling */
 
 .hero_section {
-    /* background-color: aquamarine; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -117,13 +112,10 @@ nav a img {
     width: 80%;
     align-items: center;
     padding-top: 8rem;
-    /* position: relative; */
-    /* height: 100vh; */
 }
 
 .text1 {
     flex: 0 1 55%;
-    /* background-color: aqua; */
 }
 
 .text1 h1 {
@@ -152,16 +144,9 @@ nav a img {
 }
 
 .image1 {
-    /* background-color: bisque; */
     display: flex;
     justify-content: center;
     flex: 0 1 45%;
-    /* width: 50%; */
-    /* width: auto;
-    position: absolute;
-    top: 10rem;
-    right: 5rem;
-    z-index: 1; */
 }
 
 .image1 img {
@@ -176,24 +161,18 @@ nav a img {
 
 .clouds img:nth-child(1) {
     width: 100%;
-    /* position: absolute;
-    bottom: -0rem; */
 }
 
 .clouds img:nth-child(2) {
     width: 100%;
-    /* background-color: rgb(255, 239, 243); */
     position: absolute;
-    /* bottom: -20rem; */
     bottom: -3rem;
     right: 0rem;
 }
 
 .clouds img:nth-child(3) {
     width: 100%;
-    /* background-color: rgb(255, 239, 243); */
     position: absolute;
-    /* bottom: -20rem; */
     bottom: -5rem;
     right: 0rem;
     display: none;
@@ -202,22 +181,12 @@ nav a img {
 
 .clouds img:nth-child(4) {
     width: 100%;
-    /* background-color: black; */
     position: absolute;
-    /* bottom: -20rem; */
     bottom: 0rem;
     right: 0rem;
     display: none;
     z-index: 0;
 }
-
-/* .clouds img:nth-child(3){
-    width: 100%;
-    background-color: #fe5814;
-    position: absolute;
-    bottom: 0rem;
-    z-index: 5;
-} */
 
 .about_section {
     background-color: #FFF5F1;
@@ -227,14 +196,12 @@ nav a img {
 }
 
 .about_container {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     height: 90vh;
     margin: 5rem 0rem 5rem 0rem;
-
 }
 
 .about_us {
@@ -245,7 +212,6 @@ nav a img {
     display: flex;
     justify-content: center;
     flex: 0 1 50%;
-    /* background-color: bisque; */
 }
 
 .about_us_img img {
@@ -386,7 +352,6 @@ nav a img {
 }
 
 
-
 /* Process section styling */
 
 .process_section {
@@ -404,7 +369,6 @@ nav a img {
 
 .process_container {
     width: 80%;
-
 }
 
 .process_text h2 {
@@ -437,8 +401,6 @@ nav a img {
     column-gap: 2rem;
     padding: 8rem 0rem 8rem 0rem;
 }
-
-
 
 .card_image2 {
     display: flex;
@@ -568,7 +530,6 @@ nav a img {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: aquamarine; */
 }
 
 .choice_image img {
@@ -628,7 +589,6 @@ nav a img {
     display: flex;
     flex-direction: column;
     flex: 0 1 45%;
-    /* background-color: #000000; */
     justify-content: space-around;
     height: 100%;
     gap: 30rem;
@@ -639,7 +599,6 @@ nav a img {
     margin-top: 10rem;
     height: 100%;
     flex: 0 1 35%;
-    /* background-color: #000000; */
 }
 
 .collaborate_image img {
@@ -698,7 +657,6 @@ nav a img {
     align-items: center;
     padding: 1rem;
     height: 3rem;
-    /* width: 12rem; */
     width: 12rem;
     margin-top: 2rem;
 }
@@ -726,7 +684,6 @@ nav a img {
     flex-direction: column;
     gap: 5rem;
     flex: 0 1 30%;
-
 }
 
 .location p {
@@ -736,7 +693,6 @@ nav a img {
 .column2 {
     display: flex;
     flex-direction: column;
-    /* flex: 0 1 20%; */
     gap: 0.5rem;
  
 }
@@ -744,7 +700,6 @@ nav a img {
 .column3 {
     display: flex;
     flex-direction: column;
-    /* flex: 0 1 30%; */
     gap: 0.5rem;
  
 }
@@ -752,7 +707,6 @@ nav a img {
 .column4 {
     display: flex;
     flex-direction: column;
-    /* flex: 0 1 30%; */
     gap: 10rem;
 }
 
@@ -831,13 +785,8 @@ nav a img {
 }
 
 .extra {
-    /* display: flex;
-    justify-content: space-between;
-    flex: 0 1 70%;
-    flex-wrap: wrap; */
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* background-color: aquamarine; */
 }
 
 @media (max-width: 1100px) {
@@ -856,10 +805,6 @@ nav a img {
 }
 
 @media (max-width: 940px) {
-
-    /* .nav_div .links a{
-        display: none;
-    } */
     .who_are_we {
         flex-direction: column;
         gap: 5rem;
@@ -878,12 +823,7 @@ nav a img {
         flex-direction: column-reverse;
     }
 
-    /* .about_us{
-       margin: 0;
-    }
-    .about_us_img{
-       margin: 0;
-    } */
+
     .services_cards {
         column-gap: 20rem;
     }
@@ -1137,10 +1077,6 @@ nav a img {
         display: none;
     }
 
-    
-
-
-
     .nav_div {
         display: none;
     }
@@ -1193,12 +1129,6 @@ nav a img {
 
 @media (max-width: 740px) {
 
-    /* .hero_section{
-        height: 100vh;
-    } */
-    /* .the_card2{
-        height: 80%;
-    } */
     .process_cards {
         grid-template-columns: repeat(1, 100%);
     }
@@ -1222,6 +1152,4 @@ nav a img {
         width: 80%;
         justify-content: space-between;
     }
-
-
 }
