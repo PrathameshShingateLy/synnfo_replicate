@@ -157,6 +157,7 @@ nav a img {
 .clouds {
     position: relative;
     width: 100%;
+    background: linear-gradient(0deg, #FFF5F1 0%, #FFF5F1 10%, white 85%);
 }
 
 .clouds img:nth-child(1) {
@@ -858,6 +859,10 @@ nav a img {
         line-height: 2rem;
         margin: 0;
         padding: 0;
+    }
+
+    .card_image2{
+        width: 30%;
     }
 
     .clouds img:nth-child(1),
